@@ -8,7 +8,7 @@ import argparse
 import os
 
 # store OTX API key in environment variable OTX_API_KEY
-API_KEY = os.getenv("OTX_API_KEY")
+API_KEY = os.getenv("a5f8715786fe25a9fad928d50c1aaad9480afdba4666d0")
 
 otx = OTXv2(API_KEY)
 
