@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 # store OTX API key in environment variable OTX_API_KEY
-API_KEY = os.getenv("OTX_API_KEY")
+API_KEY = os.getenv("a5f8715786fe25a9fad928d50c1aaad9480afdba4666d0")
 
 # OTXv2Cached is a class like OTXv2 except that it maintains a local cache and therefore does not
 # need to constantly fetch all the data from the server
