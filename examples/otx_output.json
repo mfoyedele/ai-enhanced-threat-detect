@@ -4413,7 +4413,7 @@
                 {
                     "address": "8.8.8.8",
                     "first": "2024-07-16T02:19:40",
-                    "last": "2024-08-13T08:00:32",
+                    "last": "2024-08-13T11:29:06",
                     "hostname": "msedgeupdate.com",
                     "record_type": "A",
                     "indicator_link": "/indicator/domain/msedgeupdate.com",
