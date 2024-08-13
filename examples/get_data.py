@@ -1,11 +1,17 @@
+import os
 from OTXv2 import OTXv2, IndicatorTypes
-from pandas.io.json import json_normalize
 from datetime import datetime, timedelta
 
-otx = OTXv2("OTX_API_KEY")
+# Initialize OTXv2 with your API key
+API_KEY = os.getenv("a5f8715786fe25a9fad928d50c1aaad9480afdba4666d0")
 
+otx = OTXv2(API_KEY)
+
+# Fetch all pulses
 pulses = otx.getall()
 
-# len(pulses)
+# Print the number of pulses retrieved
+print(f"Number of pulses retrieved: {len(pulses)}")
 
-json_normalize(pulses)[0:5]
+# Print the pulses data
+print(pulses)
