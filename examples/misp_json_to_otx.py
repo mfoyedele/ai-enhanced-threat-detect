@@ -10,9 +10,9 @@ import json
 
 # SETTINGS
 # Your API key
-API_KEY = 'a5f8715786fe25a9fad928d50c1aaad9480afdba4666d0'
+API_KEY = ''
 # Example feed source
-misp_json_url = 'https://www.circl.lu/doc/misp/feed-osint/58539031-aa78-4da1-9289-487102de0b81.json'
+# misp_json_url = 'https://www.circl.lu/doc/misp/feed-osint/58539031-aa78-4da1-9289-487102de0b81.json'
 
 OTX_SERVER = 'https://otx.alienvault.com/'
 otx = OTXv2(API_KEY, server=OTX_SERVER)
